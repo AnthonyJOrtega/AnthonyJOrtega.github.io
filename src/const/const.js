@@ -62,6 +62,7 @@ export const IconKeys = {
   android: "android",
   trello: "trello",
   sourcetree: "sourcetree",
+  chatling: "chatling",
 
 
   // here add more icon keys
@@ -189,6 +190,10 @@ export const skills = [
     icon: IconKeys.jhipster,
   },
   {
+    title: "ChatLing",
+    icon: IconKeys.chatling,
+  },
+  {
     title: "Spring Security",
     icon: IconKeys.springsecurity,
   },
@@ -273,6 +278,9 @@ export const projects = [
       {
         icon: IconKeys.angular,
       },
+      {
+        icon: IconKeys.chatling,
+      }
 
 
 
