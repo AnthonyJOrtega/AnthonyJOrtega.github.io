@@ -1,18 +1,23 @@
 export const studies = [
   {
-    title: "Técnico en desarrollo de software",
-    corporation: "SENA - Montería (Córdoba) ",
-    date: "02/2019 – 12/2019",
+    title: "BACHILLERATO DE CIENCIAS TECNOLÓGICO",
+    corporation: "I.E.S León Felipe - Getafe",
+    date: "",
   },
   {
-    title: "Desarrollador Front-end React Js",
-    corporation: "Alura Latam - Remoto",
-    date: "04/2023 – 09/2023",
+    title: "Técnico Superior Mantenimiento Aeromecánico",
+    corporation: "C.F.P Profesor Raúl Vázquez - Madrid",
+    date: "",
   },
   {
-    title: "Curso profesional de React Js",
-    corporation: "Código facilito - Remoto",
-    date: "04/2023 – 04/2023",
+    title: "B1 Inglés",
+    corporation: "English Connection",
+    date: "Curse durante un año el nivel B2. En un futuro me gustaría adquirir la certificación",
+  },
+    {
+    title: "Técnico Superior Desarrollo de Aplicaciones Multiplataforma",
+    corporation: "I.E.S Matemático Puig Adam - Getafe",
+    date: "",
   },
 ];
 
@@ -20,24 +25,45 @@ export const IconKeys = {
   html: "html",
   css: "css",
   javaScript: "javaScript",
-  react: "react",
+  /*react: "react",*/
   astro: "astro",
+  /*
   materialUi: "materialUi",
   nextjs: "nextjs",
   redux: "redux",
   styled: "styled",
   tailwind: "tailwind",
   radix: "radix",
-  reactQuery: "reactQuery",
+  reactQuery: "reactQuery",*/
   typeScript: "typeScript",
-  zustand: "zustand",
+  //zustand: "zustand",
   git: "git",
   github: "github",
-  stripe: "stripe",
-  shadcn: "shadcn",
+ // stripe: "stripe",
+ // shadcn: "shadcn",
   nodejs: "nodejs",
   mongodb: "mongodb",
-  vite: "vite",
+  //vite: "vite",
+  mysql: "mysql",
+  java: "java",
+  bootstrap: "bootstrap",
+  jhipster: "jhipster",
+  springsecurity: "springsecurity",
+  liquibase: "liquibase",
+  angular: "angular",
+  bitbucket: "bitbucket",
+  jira: "jira",
+  scrum: "scrum",
+  kanban: "kanban",
+  python: "python",
+  xml: "xml",
+  qt: "qt",
+  hibernate: "hibernate",
+  android: "android",
+  trello: "trello",
+  sourcetree: "sourcetree",
+
+
   // here add more icon keys
 };
 
@@ -58,7 +84,7 @@ export const skills = [
     title: "Astro",
     icon: IconKeys.astro,
   },
-  {
+ /* {
     title: "Tailwindcss",
     icon: IconKeys.tailwind,
   },
@@ -69,7 +95,7 @@ export const skills = [
   {
     title: "Next Js",
     icon: IconKeys.nextjs,
-  },
+  },*/
   {
     title: "Git",
     icon: IconKeys.git,
@@ -79,7 +105,7 @@ export const skills = [
     title: "Github",
     icon: IconKeys.github,
   },
-  {
+ /* {
     title: "Material UI",
     icon: IconKeys.materialUi,
   },
@@ -91,7 +117,7 @@ export const skills = [
   {
     title: "Styled Components",
     icon: IconKeys.styled,
-  },
+  },*/
   {
     title: "Node Js",
     icon: IconKeys.nodejs,
@@ -101,6 +127,14 @@ export const skills = [
     icon: IconKeys.typeScript,
   },
   {
+    title: "Python",
+    icon: IconKeys.python,
+  },
+  {
+    title: "XML",
+    icon: IconKeys.xml,
+  },
+ /* {
     title: "Radix UI",
     icon: IconKeys.radix,
   },
@@ -121,15 +155,130 @@ export const skills = [
   {
     title: "Shadcn UI",
     icon: IconKeys.shadcn,
-  },
+  },*/
   {
     title: "Mongo Db",
     icon: IconKeys.mongodb,
   },
+  {
+    title: "Hibernate",
+    icon: IconKeys.hibernate,
+  },
+  {
+    title: "Qt",
+    icon: IconKeys.qt,
+  },
+  {
+    title: "MySQL",
+    icon: IconKeys.mysql,
+  },
+  {
+    title: "Java",
+    icon: IconKeys.java,
+  },
+  {
+    title: "Android Studio",
+    icon: IconKeys.android,
+  },
+  {
+    title: "Bootstrap",
+    icon: IconKeys.bootstrap,
+  },
+  {
+    title: "JHipster",
+    icon: IconKeys.jhipster,
+  },
+  {
+    title: "Spring Security",
+    icon: IconKeys.springsecurity,
+  },
+  {
+    title: "Liquibase",
+    icon: IconKeys.liquibase,
+  },
+  {
+    title: "Angular",
+    icon: IconKeys.angular,
+  },
+  {
+    title: "SourceTree",
+    icon: IconKeys.sourcetree,
+  },
+  {
+    title: "Bitbucket",
+    icon: IconKeys.bitbucket,
+  },
+  {
+    title: "Jira",
+    icon: IconKeys.jira,
+  },
+  {
+    title: "Kanban",
+    icon: IconKeys.kanban,
+  },
+  {
+    title: "Scrum",
+    icon: IconKeys.scrum,
+  },
+  {
+    title: "Trello",
+    icon: IconKeys.trello,
+  },
+
 ];
 
 export const projects = [
-  {
+    {
+    img: ["../../../img/imag23.png","../../../img/imag2.png","../../../img/image.png", "../../../img/image4.png","../../../img/image8.png", "../../../img/image3.png","../../../img/imag24.png", "../../../img/image7.png","../../../img/image9.png","../../../img/image10.png", "../../../img/image5.png", "../../../img/image6.png", "../../../img/image11.png", "../../../img/image12.png", "../../../img/image13.png", "../../../img/image14.png", "../../../img/image15.png", "../../../img/image16.png", "../../../img/image17.png", "../../../img/image18.png", "../../../img/image19.png", "../../../img/image20.png"],
+    title: "Hospital Tech", 
+    link: "https://github.com/AnthonyJOrtega/proyecto-hospital",
+    description: `Hospital Tech es una plataforma web desarrollada con Spring Boot y JHipster, diseñada para gestionar eficientemente la información de pacientes, personal médico y administrativo en un entorno hospitalario.`,
+    technologies: [
+      {
+        icon: IconKeys.typeScript,
+      },
+      {
+        icon: IconKeys.css,
+      },
+      {
+        icon: IconKeys.html,
+      },
+      {
+        icon: IconKeys.xml,
+      },
+      {
+        icon: IconKeys.mysql,
+      },
+      {
+        icon: IconKeys.nodejs,
+      },
+      {
+        icon: IconKeys.git,
+      },
+      {
+        icon: IconKeys.java,
+      },
+      {
+        icon: IconKeys.bootstrap,
+      },
+      {
+        icon: IconKeys.jhipster,
+      },
+      {
+        icon: IconKeys.springsecurity,
+      },
+      {
+        icon: IconKeys.liquibase,
+      },
+      {
+        icon: IconKeys.angular,
+      },
+
+
+
+    ],
+  }
+ /* { 
     img: "../../../img/ecommerce-stripe-2.webp",
     title: "Ecommerce Stripe",
     link: "https://ecommerce-stripe-763m.vercel.app/",
@@ -324,5 +473,5 @@ export const projects = [
         icon: IconKeys.shadcn,
       },
     ],
-  },
+  },*/
 ];
