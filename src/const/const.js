@@ -234,10 +234,10 @@ export const skills = [
 
 export const projects = [
     {
-    img: ["../../../img/imag23.png","../../../img/imag2.png","../../../img/image.png", "../../../img/image4.png","../../../img/image8.png", "../../../img/image3.png","../../../img/imag24.png", "../../../img/image7.png","../../../img/image9.png","../../../img/image10.png", "../../../img/image5.png", "../../../img/image6.png", "../../../img/image11.png", "../../../img/image12.png", "../../../img/image13.png", "../../../img/image14.png", "../../../img/image15.png", "../../../img/image16.png", "../../../img/image17.png", "../../../img/image18.png", "../../../img/image19.png", "../../../img/image20.png"],
+    img: ["../../../img/imag23.png","../../../img/imag2.png","../../../img/image.png", "../../../img/image4.png","../../../img/image8.png", "../../../img/image3.png","../../../img/imag24.png", "../../../img/image7.png","../../../img/image9.png","../../../img/image10.png", "../../../img/image5.png", "../../../img/image6.png", "../../../img/image11.png", "../../../img/image12.png", "../../../img/image13.png", "../../../img/image14.png", "../../../img/image15.png", "../../../img/image16.png", "../../../img/image17.png","../../../img/image18.png", "../../../img/image19.png", "../../../img/image20.png"],
     title: "Hospital Tech", 
     link: "https://github.com/AnthonyJOrtega/proyecto-hospital",
-    description: `Hospital Tech es una plataforma web desarrollada con Spring Boot y JHipster, diseñada para gestionar eficientemente la información de pacientes, personal médico y administrativo en un entorno hospitalario.`,
+    description: `Hospital Tech es una plataforma web desarrollada con Spring Boot y JHipster, diseñada para gestionar la información de pacientes, personal médico y administrativo en un entorno hospitalario.`,
     technologies: [
       {
         icon: IconKeys.typeScript,
