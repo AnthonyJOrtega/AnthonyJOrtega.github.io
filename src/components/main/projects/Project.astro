@@ -218,6 +218,63 @@ const { technologies, title, img, description, link } = Astro.props;
   }
 
 }
+/*cambio*/
+@media (max-width: 700px) {
+  .li-project {
+    list-style: none;
+    border: 1px solid #3d3e4f;
+    border-radius: 7px;
+    background-color: #25242d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    min-width: auto; /* 🔥 anula min-width heredado */
+    height: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .project-images-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    width: 100%;
+    padding: 0;
+    gap: 0;
+    box-sizing: border-box;
+  }
+
+  .project-images-scroll img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: 176px;
+    object-fit: cover;
+    scroll-snap-align: start;
+    display: block;
+    user-select: none;
+    pointer-events: none;
+    border-radius: 5px;
+  }
+
+
+
+.description-project {
+  padding: 0 14px;
+  color: #f6f6f990;
+  font-size: 17px;
+  font-weight: 400;
+  overflow: visible;
+  display: block; /* o flex, según necesites */
+}
+
+
+
+}
 
 @media (max-width: 430px) {
   .li-project {
@@ -275,5 +332,32 @@ const { technologies, title, img, description, link } = Astro.props;
 
 
 }
+/*cambio*/
+@media (max-width: 415px) {
+  .project-images-scroll img {
+    height: 169px;
+  }
+}
+@media (max-width: 391px) {
+  .project-images-scroll img {
+    height: 160px;
+  }
+}
 
+@media (max-width: 376px) {
+  .project-images-scroll img {
+    height: 153px;
+  }
+}
+@media (max-width: 361px) {
+  .project-images-scroll img {
+    height: 147px;
+  }
+}
+
+@media (max-width: 345px) {
+  .project-images-scroll img {
+    height: 140px;
+  }
+}
 </style>
