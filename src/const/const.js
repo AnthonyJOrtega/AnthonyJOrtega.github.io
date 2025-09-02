@@ -25,7 +25,7 @@ export const IconKeys = {
   html: "html",
   css: "css",
   javaScript: "javaScript",
-  /*react: "react",*/
+  react: "react",
   astro: "astro",
   /*
   materialUi: "materialUi",
@@ -63,6 +63,7 @@ export const IconKeys = {
   trello: "trello",
   sourcetree: "sourcetree",
   chatling: "chatling",
+  tailwind: "tailwind"
 
 
   // here add more icon keys
@@ -85,15 +86,15 @@ export const skills = [
     title: "Astro",
     icon: IconKeys.astro,
   },
- /* {
+  {
     title: "Tailwindcss",
     icon: IconKeys.tailwind,
   },
   {
-    title: "React Js",
+    title: "React",
     icon: IconKeys.react,
   },
-  {
+  /*{
     title: "Next Js",
     icon: IconKeys.nextjs,
   },*/
@@ -280,10 +281,35 @@ export const projects = [
       },
       {
         icon: IconKeys.chatling,
-      }
+      },
 
 
 
+    ],
+  },
+
+  
+  {
+    img: "../../../img/spotify.webp",
+    title: "Stony Fly",
+    link: "https://create-react-app-music3.vercel.app/",
+    description: `Clon de la página de Spotify con reproductor de canciones, etc `,
+    technologies: [
+      {
+        icon: IconKeys.react,
+      },
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.tailwind,
+      },
+      {
+        icon: IconKeys.redux,
+      },
+      {
+        icon: IconKeys.reactQuery,
+      },
     ],
   }
  /* { 
